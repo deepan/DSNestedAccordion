@@ -4,6 +4,5 @@ end
 
 target 'Tests', :exclusive => true do
   pod "DSNestedAccordion", :path => "../"
-
-  pod 'Kiwi'
+  pod 'Kiwi/XCTest', "~> 2.2.4"
 end
