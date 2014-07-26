@@ -1,0 +1,9 @@
+target 'DSNestedAccordion', :exclusive => true do
+  pod "DSNestedAccordion", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DSNestedAccordion", :path => "../"
+
+  pod 'Kiwi'
+end
