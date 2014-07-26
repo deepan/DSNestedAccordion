@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="DSNestedAccordion" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="DSNestedAccordion" PROJECT_NAME="DSNestedAccordion" TARGET_NAME="DSNestedAccordion" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="DSNestedAccordion" RUN_TARGET_NAME="DSNestedAccordion" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-    <envs />
-    <RunnerSettings RunnerId="AppRunner" />
-    <ConfigurationWrapper RunnerId="AppRunner" />
-    <method />
-  </configuration>
-</component>
