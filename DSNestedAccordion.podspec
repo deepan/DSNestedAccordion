@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/deepan/DSNestedAccordion.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/s_deepan'
 
-  s.platform     = :ios, '6.1'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
