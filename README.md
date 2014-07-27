@@ -38,7 +38,7 @@ support for nesting table views
 - (UITableViewCell *)tableView:(UITableView *)view cellForPath:(DSCellPath *)path;
 ```
 
-DSCellPath represents the traversal path to the cell from the root level within a nested model. DSCellPath.levelIndexes is an array property that will hold the indices of the parent cells at each nesting level.
+DSCellPath represents the traversal path to the cell from the root level within a nested model. *levelIndexes* array property will hold the indices of the parent cells at each nesting level.
 
 
 For example, levelIndexes having a value @[1, 2, 0] would identify the path *vertibrate > bird > duck* in the below example data.
