@@ -2,6 +2,9 @@
 
 A nested accordion view for Cocoa Touch
 
+# Demo
+![DSNestedAccordion iPhone demo](https://dl.dropboxusercontent.com/s/rbszupheigunp5v/DSNestedAccordion_demo.gif "DSNestedAccordion iPhone demo Video")
+
 ## Current Version
 
 Version: 0.1.0
@@ -116,4 +119,4 @@ DSNestedAccordion is available under the MIT license. See the LICENSE file for m
 
 ## Credits
 
-The demo concept was inspired from [this article](http://www.splendidtable.org/story/the-7-flavor-categories-of-beer-what-they-are-how-to-pair-them) published by http://www.splendidtable.org/ 
+The demo concept was inspired from [this article](http://www.splendidtable.org/story/the-7-flavor-categories-of-beer-what-they-are-how-to-pair-them) published by http://www.splendidtable.org/
