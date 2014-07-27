@@ -113,3 +113,7 @@ If you have any questions comments or suggestions, send me a message. If you fin
 ## License
 
 DSNestedAccordion is available under the MIT license. See the LICENSE file for more info.
+
+## Credits
+
+The demo concept was inspired from [this article](http://www.splendidtable.org/story/the-7-flavor-categories-of-beer-what-they-are-how-to-pair-them) published by http://www.splendidtable.org/ 
