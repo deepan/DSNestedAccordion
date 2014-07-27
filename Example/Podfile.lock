@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DSNestedAccordion: 6eeb5b14dec77a33c415b203ae4992957c113515
+  DSNestedAccordion: f2f0feaf7b10f0c30abefe62101d355e4a31105f
   Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
 
 COCOAPODS: 0.33.1

@@ -12,7 +12,7 @@
 
 - (void)tableView:(UITableView *)tableView toggleAtIndexPath:(NSIndexPath *)indexPath;
 
-- (NSInteger)noOfRootCells;
+- (NSInteger)noOfRowsInRootLevel;
 
 - (NSInteger)tableView:(UITableView *)view noOfChildRowsForCellAtPath:(DSCellPath *)path;
 

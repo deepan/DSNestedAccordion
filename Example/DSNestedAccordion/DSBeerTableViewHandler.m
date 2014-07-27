@@ -8,16 +8,16 @@
     DSBeers *_beers;
 }
 
-- (NSInteger)noOfRootCells {
-    return _beers.allFlavors.count;
-}
-
 - (id)initWithBeers:(DSBeers *)beers {
     self = [super init];
     if(self){
         _beers = beers;
     }
     return self;
+}
+
+- (NSInteger)noOfRowsInRootLevel {
+    return _beers.allFlavors.count;
 }
 
 - (NSInteger)tableView:(UITableView *)view noOfChildRowsForCellAtPath:(DSCellPath *)path {

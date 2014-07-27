@@ -10,7 +10,7 @@
 - (id)init{
     self = [super init];
     if (self) {
-        topCellLevel = [[DSCellLevel alloc] initWithCellCount:[self noOfRootCells] openCellIndex:-1 childLevel:nil];
+        topCellLevel = [[DSCellLevel alloc] initWithCellCount:[self noOfRowsInRootLevel] openCellIndex:-1 childLevel:nil];
     }
     return self;
 }
@@ -21,7 +21,7 @@
 
 - (void)reload {
     [topCellLevel reset];
-    [topCellLevel setCellCount:[self noOfRootCells]];
+    [topCellLevel setCellCount:[self noOfRowsInRootLevel]];
     [_tableView reloadData];
 }
 
@@ -83,7 +83,7 @@
     return indexPaths;
 }
 
-- (NSInteger)noOfRootCells {
+- (NSInteger)noOfRowsInRootLevel {
     @throw [NSException dsMethodNotOverridden:NSStringFromSelector(_cmd)];
 }
 
