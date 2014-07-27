@@ -57,6 +57,8 @@ For example, levelIndexes having a value @[1, 2, 0] would identify the path *ver
  * bird
    * duck, pigeon, peacock, parrot
 
+#### Example implementation
+
 ```objective-c
 - (NSInteger)noOfRowsInRootLevel {
     return _beers.allFlavors.count;
