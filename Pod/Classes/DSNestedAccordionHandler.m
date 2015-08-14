@@ -25,6 +25,11 @@
     [_tableView reloadData];
 }
 
+- (CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [self tableView:tableView heightForCellAtPath:[topCellLevel pathToCellAtIndex:indexPath.row]];
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     return [self tableView:tableView cellForPath:[topCellLevel pathToCellAtIndex:indexPath.row]];
 }
