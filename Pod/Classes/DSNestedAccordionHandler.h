@@ -16,6 +16,8 @@
 
 - (NSInteger)tableView:(UITableView *)view noOfChildRowsForCellAtPath:(DSCellPath *)path;
 
+- (CGFloat)tableView:(UITableView *)tableView heightForCellAtPath:(DSCellPath *)path;
+
 - (UITableViewCell *)tableView:(UITableView *)view cellForPath:(DSCellPath *)path;
 
 @end
